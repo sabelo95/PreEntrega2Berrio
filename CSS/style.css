@@ -1,0 +1,596 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+/* ESTILOS PAGINA INDEX */
+
+ 
+
+ .header-index{
+    display: flex;
+    justify-content: center;
+    background-color: #17181a;
+    
+ }
+
+ .header-img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    
+ }
+
+ 
+
+
+ .parrafo-principal1{
+    font-size: 25px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .parrafo-principal2{
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ .seccion-principal1{
+   background-color:  #17181a;;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 50px;
+ }
+
+ .about-us{
+   border: 5px solid gray;
+   padding: 10px;
+   background-color: #17181a;
+   color: white;
+ }
+ 
+
+ .h2-aboutus{
+   position: absolute;
+   margin: -35px;
+   margin-left: 30px;
+   background-color: black;
+   border-radius: 5px;
+   
+   
+ }
+
+ .h2-ms{
+   position: absolute;
+   right: 20px;
+   margin: -5px;
+   background-color: black;
+   border-radius: 5px;
+   
+ }
+
+ .choose-us{
+   background-color: #17181a;
+   color: white;
+ }
+
+ .h2-choose1{
+   padding-top: 10px;
+ }
+
+ .div-chooseus{
+   border: 2px solid gray;
+ }
+
+ .span-chooseus{
+   background-image: url(../Images/icon-cajas.webp);
+   width: 40px;
+   height: 40px;
+   display: inline-block;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .h2-choose2{
+   display: inline-block;
+   margin-left: 3px;
+ }
+
+
+
+ .div-footer{
+   height: 150px;
+   display: grid;
+   grid-template-columns: 50% 50%;
+   text-align: center;
+   background-color: #17181a;
+   
+   
+}
+
+.div-footer div{
+   margin: auto;
+   color: white;
+   font-size: 30px;
+}
+
+.span-footer1{
+   display: inline-block;
+   height: 50px;
+   width: 50px;
+   background-image: url(../Images/instagram.webp);
+   background-size: cover
+}
+
+.span-footer2{
+   display: inline-block;
+   height: 50px;
+   width: 50px;
+   background-image: url(../Images/facebook.webp);
+   background-size: cover
+}
+
+@media(min-width:320px){
+   .choose-us{
+      background-color:  #17181a;;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap:nowrap;
+      padding-top: 50px;
+      
+    }
+
+    .h2-choose1{
+      position: absolute;
+      margin-top: -50px;
+      left: 0;
+    }
+
+    .choose-us div{
+      margin: 0 10px 0 10px;
+    }
+}
+
+/* ESTILOS PAGINA PROJECTS */
+
+.header-projects{
+   display: flex;
+   justify-content: center;
+   background-color: #17181a;
+   
+}
+
+.main-projects{
+   background-color: #17181a;
+   color: white;
+   border: 1px solid gray;
+}
+
+.projects-div1{
+   background-image: url(../Images/660-ave.png);
+   height: 400px;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+}
+
+.projects-div1 h2, .projects-div1 p{
+   display: none;
+}
+
+.projects-div1:hover p , .projects-div1:hover h2{
+   display: inline-block;
+   
+}
+
+.projects-div1:hover{
+   opacity: 0.3;
+}
+
+.projects-div2{
+   background-image: url(../Images/north-weast.jpg);
+   height: 400px;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+}
+
+.projects-div2 h2, .projects-div2 p{
+   display: none;
+}
+
+.projects-div2:hover p , .projects-div2:hover h2{
+   display: inline-block;
+   
+}
+
+.projects-div2:hover{
+   opacity: 0.3;
+}
+
+.projects-div3{
+   background-image: url(../Images/lester-glen.jpg);
+   height: 400px;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+}
+
+.projects-div3 h2, .projects-div3 p{
+   display: none;
+}
+
+.projects-div3:hover p , .projects-div3:hover h2{
+   display: inline-block;
+   
+}
+
+.projects-div3:hover{
+   opacity: 0.3;
+}
+
+.projects-div4{
+   background-image: url(../Images/waxcenter-open.jpg);
+   height: 400px;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   margin: 10px;
+}
+
+.projects-div4 h2, .projects-div4 p{
+   display: none;
+}
+
+.projects-div4:hover p , .projects-div4:hover h2{
+   display: inline-block;
+   
+}
+
+.projects-div4:hover{
+   opacity: 0.3;
+}
+
+.div-responsive{
+   text-align: center;
+}
+
+@media(min-width:900px){
+   .main-projects{
+      display: grid;
+      grid-template-columns: 50% 50%;
+   }
+
+   .div-responsive{
+      display: none;
+   }
+}
+
+/* ESTILOS PAGINA SERVICES */
+
+.header-services{
+   display: flex;
+   justify-content: center;
+   background-color: #17181a;
+   padding-bottom: 10px;
+}
+
+.services-principalsection{
+   color: white;
+   
+   
+}
+.principalsection-div1{
+   background-color: #17181a;
+   padding: 10px;
+   grid-area: div1 ;
+   border: 1px solid gray;
+   padding: 10px;
+   
+}
+
+.principalsection-div1 ul{
+   text-decoration: none;
+   list-style: none;
+   padding: 0;
+   text-align: center;
+   position: sticky;
+   top: 300px;
+}
+
+.principalsection-div1 li{
+   margin-top: 10px;
+}
+
+.principalsection-div1 li:hover{
+   scale: 1.1;
+}
+
+
+
+
+.principalsection-div1 a{
+   text-decoration: none;
+   color: white;
+   box-shadow: 1px 1px 1px;
+}
+
+.principalsection-div2{
+   background-color: #17181a;
+   grid-area: div2;
+   padding: 10px;
+   border: 1px solid gray;
+}
+
+
+.services-service1{
+   background-image: url(../Images/3d-modeling.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+   width: auto;
+   height: 400px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+.services-service1 h2, .services-service1 p{
+   opacity: 0;
+}
+
+.services-service1:hover p, .services-service1:hover h2{
+   opacity: 1;
+   background-color: rgba(0, 0, 0, 0.725);;
+   transition:all 1s;
+   }
+
+.services-service2 h2, .services-service2 p{
+      opacity: 0;
+   }
+   
+.services-service2:hover p, .services-service2:hover h2{
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.725);
+      transition:all 1s;
+   }
+
+.services-service3 h2, .services-service3 p{
+      opacity: 0;
+   }
+   
+.services-service3:hover p, .services-service3:hover h2{
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.725);
+      transition:all 1s;
+   } 
+
+.services-service4 h2, .services-service4 p{
+      opacity: 0;
+   }
+   
+.services-service4:hover p, .services-service4:hover h2{
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.725);
+      transition:all 1s;
+   } 
+
+
+
+
+.services-service2{
+   background-image: url(../Images/point-cloud.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.services-service3{
+   background-image: url(../Images/3d-scanning.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.services-service4{
+   background-image: url(../Images/revit.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 400px;
+   width: 100%px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+@media (min-width:1000px){
+   .services-principalsection{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: "div1 div2";
+      
+      
+   }
+
+   .principalsection-div2{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+   }
+}
+
+/* ESTILOS PAGINA TEAM */
+.header-team{
+   display: flex;
+   justify-content: center;
+   background-color: #17181a;
+   
+}
+
+.main-team{
+   padding: 10PX;
+   display: flex;
+   background-color: #17181a;
+   color: white;
+   justify-content: center;
+   height: 100vh;
+   
+   
+}
+
+.carousel-caption{
+   background-color: rgba(0, 0, 0, 0.507);
+}
+
+.div-mensaje{
+   display: block;
+   background-color: #17181a;
+   color: white;
+   text-align: center;
+   
+   
+}
+
+.div-mensaje h2{
+   position: relative;
+   margin-top: -200px;
+}
+
+/* .team-div1{
+   grid-area: santiago-montoya;
+   margin: 3px;
+   border: 1px solid gray;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.team-div2{
+   grid-area: santiago-berrio;
+   margin: 3px;
+   border: 1px solid gray;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.team-div3{
+   grid-area: cristian-bastidas;
+   margin: 3px;
+   border: 1px solid gray;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.team-div4{
+   grid-area: sebastian-restrepo;
+   margin: 3px;
+   border: 1px solid gray;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.main-team img{
+   width: 100%;
+   height: 80%;
+} */
+
+#carouselExample{
+   
+   width: 500px;
+   height: 500px;
+   margin: auto;
+}
+
+@media (min-width:500px){
+
+   .div-mensaje{
+      display: none;
+   }
+}
+
+/* estilos pagina contact*/
+.header-contact{
+   background-color: #17181a;
+   display: flex;
+   justify-content: center;
+}
+
+.main-contact{
+   background-color: #17181a;
+   color: white;
+   display: flex;
+   flex-direction: column;
+
+   
+   
+}
+
+.contact-div2{
+   margin-top: 20px;
+   
+}
+
+@media (min-width:600px){
+
+
+   .main-contact{
+      display: grid;
+      grid-template-columns: 1fr 2fr ;
+      grid-template-rows: 1fr 1fr;
+      grid-template-areas: "contact-div1 contact-div2"
+                            "contact-form contact-div2";
+
+   }
+
+   .contact-div1{
+      grid-area: contact-div1;
+      margin: auto;
+   }
+
+   .contact-form{
+      grid-area: contact-form;
+      margin: auto;
+      
+   }
+
+   .contact-div2{
+      grid-area: contact-div2;
+      margin: auto;
+   }
+}
